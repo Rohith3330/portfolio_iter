@@ -45,8 +45,7 @@ const About = () => {
         variants={fadeIn("",'',0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer and AI devoloper with experience in JavaScript, and expertise in frameworks like React, Node.js,
-        Three.js, Tensorflow, Pytorch etc. I'm a quick learner and can collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
+        I'm a skilled software and AI devoloper with experience in programming with JavaScript, Python , C++, Java, and expertise in frameworks like React, Node.js, Tensorflow, Pytorch, Flutter, Three.js . I'm a quick learner and can collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
 
       </motion.p>

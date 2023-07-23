@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 
 const Hero = () => {
@@ -17,7 +15,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Rohith</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I devolep Machine learning, Deep learning  <br className='sm:block hidden'/>and Artificial intelligence <br className='sm:block hidden'/>models, Web applications <br className='sm:block hidden'/>and user interfaces </p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop Machine learning, Deep learning , <br className='sm:block hidden'/> Artificial intelligence models,<br className='sm:block hidden'/> Web applications and user interfaces </p>
         </div>
       </div>
     </section>
