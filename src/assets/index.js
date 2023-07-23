@@ -8,17 +8,13 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import java from "./tech/java.webp";
-import pytorch from "./tech/pytorch.png";
-import c from "./tech/c.png";
 import py from "./tech/py.jpg";
-import tensorflow from "./tech/tf.png";
 import flutter from "./tech/flutter.jpg";
 import firebase from "./tech/firebase.png";
 
@@ -30,13 +26,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  c,
   java,
   flutter,
   firebase,
   py,
-  tensorflow,
-  pytorch,
   IST,
   backend,
   creator,
@@ -46,7 +39,6 @@ export {
   menu,
   close,
   git,
-  html,
   javascript,
   mongodb,
   reactjs,

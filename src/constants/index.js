@@ -3,7 +3,6 @@ import {
     backend,
     web,
     javascript,
-    html,
     reactjs,
     tailwind,
     mongodb,
@@ -15,7 +14,6 @@ import {
     threejs,
     java,
     py,
-    c,
     firebase,
     flutter,
   } from "../assets";
