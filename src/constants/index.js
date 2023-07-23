@@ -4,10 +4,8 @@ import {
     web,
     javascript,
     html,
-    css,
     reactjs,
     tailwind,
-    nodejs,
     mongodb,
     git,
     IST,
@@ -20,6 +18,8 @@ import {
     pytorch,
     c,
     tensorflow,
+    firebase,
+    flutter,
   } from "../assets";
   
   export const navLinks = [
@@ -58,10 +58,6 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -72,10 +68,6 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
     },
     {
       name: "MongoDB",
@@ -90,10 +82,6 @@ import {
       icon: git,
     },
     {
-      name: "tensorflow",
-      icon: tensorflow,
-    },
-    {
       name: "c++",
       icon: c,
     },
@@ -102,12 +90,16 @@ import {
       icon: py,
     },
     {
-      name: "pytorch",
-      icon: pytorch,
-    },
-    {
       name: "java",
       icon: java,
+    },
+    {
+      name: "flutter",
+      icon: flutter,
+    },
+    {
+      name: "firebase",
+      icon: firebase,
     },
   ];
   
@@ -127,30 +119,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Map Translations",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Android application that allows users to  to transform satellite imagery to map imagery and vice versa, providing a convenient and efficient solution for automation needs.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rohith3330/Map_translations",
     },
     {
-      name: "Job IT",
+      name: "Pokedex",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to utilze as a game tool to identify and collect different Pokemon using deep learning techniques ",
       tags: [
         {
           name: "react",
@@ -161,24 +149,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rohith3330/mern_pokedex_final",
     },
     {
-      name: "Trip Guide",
+      name: "Hindi OCR",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " a web application that allows users to extract and detect Hindi handwritten text from a picture and transforms to editable digital text",
       tags: [
         {
-          name: "nextjs",
+          name: "openCV",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "flask",
           color: "green-text-gradient",
         },
         {
@@ -187,7 +175,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rohith3330/Hindi_OCR",
     },
   ];
   
