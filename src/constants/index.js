@@ -15,9 +15,7 @@ import {
     threejs,
     java,
     py,
-    pytorch,
     c,
-    tensorflow,
     firebase,
     flutter,
   } from "../assets";
@@ -54,10 +52,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -80,10 +74,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "c++",
-      icon: c,
     },
     {
       name: "python",
