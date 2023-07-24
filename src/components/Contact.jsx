@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";  
+// import {}
+import { linkedin } from "../assets";
 
 // template_t02mmf6
 // service_e3ixmox
@@ -72,6 +74,22 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+          <div
+              onClick={() => window.open("https://www.linkedin.com/in/rohith3330/", "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={linkedin}
+                alt='source code'
+                className='w-1/2 h-1/2  flex justify-center object-contain items-center'
+              />
+            </div>
+            <div
+              onClick={() => window.open("https://rohith3330.github.io.", "_blank")}
+              className='flex justify-center items-center cursor-pointer'
+            >
+              <a className={`${styles.sectionHeadText}`}>Resume</a>
+            </div>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -126,6 +144,7 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
+      
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
@@ -133,7 +152,9 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      
     </div>
+    
   );
 };
 

@@ -17,6 +17,7 @@ import java from "./tech/java.webp";
 import py from "./tech/py.jpg";
 import flutter from "./tech/flutter.jpg";
 import firebase from "./tech/firebase.png";
+import linkedin from "./tech/linkedin.png";
 
 import IST from "./company/IST.png"
 
@@ -31,6 +32,7 @@ export {
   firebase,
   py,
   IST,
+  linkedin,
   backend,
   creator,
   mobile,
