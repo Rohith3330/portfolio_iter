@@ -144,27 +144,27 @@ import {
       image: jobit,
       source_code_link: "https://github.com/Rohith3330/mern_pokedex_final",
     },
-    {
-      name: "Hindi OCR",
-      description:
-        " a web application that allows users to extract and detect Hindi handwritten text from a picture and transforms to editable digital text",
-      tags: [
-        {
-          name: "openCV",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "flask",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/Rohith3330/Hindi_OCR",
-    },
+    // {
+    //   name: "Hindi OCR",
+    //   description:
+    //     " a web application that allows users to extract and detect Hindi handwritten text from a picture and transforms to editable digital text",
+    //   tags: [
+    //     {
+    //       name: "openCV",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "flask",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/Rohith3330/Hindi_OCR",
+    // },
   ];
   
   export { services, technologies, experiences, projects };
