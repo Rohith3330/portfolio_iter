@@ -1,0 +1,14 @@
+/* Add your styles for the social-links container and social media icons here */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px; /* Adjust the size of your social media icons as needed */
+}

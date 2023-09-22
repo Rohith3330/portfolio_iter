@@ -24,6 +24,7 @@ import IST from "./company/IST.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import twitter from "./tech/twitter.png"
 
 export {
   logo,
@@ -32,6 +33,7 @@ export {
   firebase,
   py,
   IST,
+  twitter,
   linkedin,
   backend,
   creator,
