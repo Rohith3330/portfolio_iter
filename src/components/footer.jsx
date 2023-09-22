@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { SectionWrapper } from '../hoc';
 import { styles } from "../styles";
 import { linkedin ,twitter,github} from "../assets";
@@ -20,19 +20,19 @@ const Footer = () => {
               alt='source code'
               className='w-1/2 h-1/2  flex justify-center object-contain items-center' />
       </div> */}
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/rohith3330/" target="_blank">
+      <div className="social-links">
+        <a href="https://www.linkedin.com/in/rohith3330/" target="_blank" rel="noreferrer">
             <img src={linkedin}alt="linkdin"/>
         </a>
-        <a href="https://twitter.com/RohithManikant3" target="_blank">
+        <a href="https://twitter.com/RohithManikant3" target="_blank" rel="noreferrer">
             <img src={twitter} alt="Twitter"/>
         </a>
-        <a href="https://twitter.com/RohithManikant3" target="_blank">
+        <a href="https://twitter.com/RohithManikant3" target="_blank" rel="noreferrer">
             <img src={github} alt="github"/>
         </a>
     </div>
       </>
-      
+
   )
 }
 

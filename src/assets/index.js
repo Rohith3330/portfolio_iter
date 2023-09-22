@@ -18,13 +18,16 @@ import py from "./tech/py.jpg";
 import flutter from "./tech/flutter.jpg";
 import firebase from "./tech/firebase.png";
 import linkedin from "./tech/linkedin.png";
+import golang from "./tech/Go.png";
+import gcp from "./tech/google-cloud.png";
 
+import bc from "./company/bc.jpeg";
 import IST from "./company/IST.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import twitter from "./tech/twitter.png"
+import twitter from "./tech/x.png"
 
 export {
   logo,
@@ -39,6 +42,7 @@ export {
   creator,
   mobile,
   web,
+  bc,
   github,
   menu,
   close,
@@ -51,4 +55,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  golang,
+  gcp,
 };

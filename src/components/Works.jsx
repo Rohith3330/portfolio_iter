@@ -1,4 +1,5 @@
-import React from "react";
+
+import PropTypes from "prop-types";
 import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -67,12 +68,26 @@ const ProjectCard = ({
   );
 };
 
+ProjectCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      color: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  image: PropTypes.string.isRequired,
+  source_code_link: PropTypes.string.isRequired,
+};
+
 const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Personal Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>

@@ -10,14 +10,17 @@ import {
     IST,
     carrent,
     jobit,
-    tripguide,
+    bc,
     threejs,
     java,
     py,
     firebase,
     flutter,
+    creator,
+    golang,
+    gcp,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -32,10 +35,10 @@ import {
       title: "Contact",
     },
   ];
-  
+
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
@@ -46,8 +49,12 @@ import {
       title: "AI Model Developer",
       icon: backend,
     },
+    {
+      title: "Golang Developer",
+      icon: creator,
+    },
   ];
-  
+
   const technologies = [
     {
       name: "JavaScript",
@@ -89,22 +96,42 @@ import {
       name: "firebase",
       icon: firebase,
     },
+    {
+      name: "golang",
+      icon: golang,
+    },
+    {
+      name: "gcp",
+      icon: gcp,
+    },
   ];
-  
+
   const experiences = [
+    {
+      title: "Software Developer",
+      company_name: "Beautiful Code",
+      icon: bc,
+      iconBg: "#383E56",
+      date: "April 2024 - Present",
+      points: [
+        "Designed and optimized multiple ETL pipelines, reducing data processing time by 18% and improving system efficiency",
+        "Led enhancements to a major commission pipeline, increasing auditability and reducing financial discrepancies by 6%",
+        "Built and integrated scalable GraphQL endpoints in Go using GORM, improving data retrieval and API performance",
+      ],
+    },
     {
       title: "ML Intern",
       company_name: "iSpatial Techno Solutions",
       icon: IST,
       iconBg: "#383E56",
-      date: "September 2022 - February 2023",
+      date: "September 2021 - February 2024",
       points: [
         "Worked on a Deep Learning framework for object tracking using YOLOV5 and STRONG-SORT by utilizing Kalman filter",
         "Devoleped an OCR frame work along with object detection for detecting street names in road signs from Google Maps API",
       ],
     },
   ];
-  
+
   const projects = [
     {
       name: "Map Translations",
@@ -166,6 +193,5 @@ import {
     //   source_code_link: "https://github.com/Rohith3330/Hindi_OCR",
     // },
   ];
-  
+
   export { services, technologies, experiences, projects };
-  
